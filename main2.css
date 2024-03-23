@@ -1,0 +1,82 @@
+html{
+    font-family: 'Quicksand';
+}
+textarea#Terminal{
+    border-style: none;
+    border-color: black;
+    background-color: black;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+}
+textarea#Powershell{
+    border-style: none;
+    border-color: black;
+    background-color: #012456;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+}
+button#Fancy{
+    cursor: pointer;
+    border-style: none;
+    border-color: black;
+    background-color: #025601;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+}
+button:active#Fancy{
+    border-style: none;
+    border-color: black;
+    background-color: #028d00;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+    border-bottom: 1px solid black;
+    -ms-transform: translateY(3%);
+    transform: translateY(3%);
+}
+button#Premium{
+    cursor: pointer;
+    border-style: none;
+    border-color: black;
+    background-color: #7f8b15;
+    color: white;
+    font-family:'Quicksand', sans-serif;
+    font-weight: 900;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+}
+button:active#Premium{
+    border-style: none;
+    border-color: black;
+    background-color: #d6ca18;
+    color: white;
+    font-family:'Quicksand', sans-serif;
+    border-radius: 5px;
+    font-weight: 1400;
+    border-bottom: 1px solid black;
+    -ms-transform: translateY(3%);
+    transform: translateY(3%);
+}
+div#Bronze{
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(255, 124, 43), rgb(82, 37, 0));
+    border-bottom: 2px solid black;
+}
+div#Silver{
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(185, 185, 185), rgb(70, 70, 70));
+    border-bottom: 2px solid black;
+}
+div#Gold{
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(248, 213, 73), rgb(122, 90, 13));
+    border-bottom: 2px solid black;
+}
+@font-face {
+    font-family: 'Quicksand';
+    src: url(Quicksand-Regular.ttf);
+}
